@@ -1,0 +1,10 @@
+# Get user's age
+age = int(input("Enter your age: "))
+
+# Check conditions
+if (age >= 18 and age <= 65) and not (age == 30):
+    print("Age is within range (18–65) and not 30.")
+else:
+    print("Age is either out of range or exactly 30.")
+
+    
