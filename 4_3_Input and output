@@ -1,0 +1,8 @@
+# Read a monetary value as a string
+value = input("Enter a monetary amount: ")
+
+# Convert to float
+amount = float(value)
+
+# Display with two decimal places and a dollar sign using f-string
+print(f"The amount is: ${amount:.2f}")

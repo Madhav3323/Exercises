@@ -1,0 +1,9 @@
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Compute sum and product
+sum_result = num1 + num2
+product_result = num1 * num2
+
+# Display both results in one print statement using sep
+print("Sum:", sum_result, "Product:", product_result, sep=" | ")
