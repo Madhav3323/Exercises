@@ -1,0 +1,9 @@
+# Ask for user inputs
+name = input("Enter your name: ")
+greeting = input("Enter your preferred greeting (e.g., 'Hello,' or 'Welcome,'): ")
+
+# Combine using an f-string
+message = f"{greeting} {name}!"
+
+# Display the custom message
+print(message)
